@@ -4,23 +4,7 @@
 //		Outputs the hexadeimal of the EBCDIC
 //		equivalent of a given ASCII character.
 //
-//		Copyright (c) 1998 Universal Computer Consulting, Inc.
-//
-//		VMOD#		PROJECT#		DATE		DESCRIPTION OF CHANGE
-//		--------------------------------------------------------------------------
-//		1.5		##MDV#####	03/25/25	Added command line argument functionality
-//												& switched to dynamic memory allocation.
-//		1.4		##MDV#####	03/18/25	Added Ascii Hex input option & a feature
-//												to continously use same input stream until
-//												user decides otherwise.
-//		1.3		##MDV#####	03/17/25	Added a menu for reproducibility &
-//												EBCDIC to Ascii conversion.
-//		1.2		##MDV#####	03/14/25	Change to allow multiple characters
-//												And to output in 16-wide hexdump format.
-//		1.0		##MDV#####	03/12/25	Original creation.
-//
 
-#include <uccpr.h>
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
